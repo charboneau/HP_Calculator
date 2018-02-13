@@ -5,7 +5,7 @@
         id        = "info.charboneau.hpcalculator"
         version   = "1.0.0">
 
-    <name>Test</name>
+    <name>Hidden Power Calculator</name>
 
     <description>
         Test
