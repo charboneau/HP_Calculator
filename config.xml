@@ -8,7 +8,7 @@
     <name>Hidden Power Calculator</name>
 
     <description>
-        Test
+        This is a calculator that can be used to calculate the type of Hidden Power given the IVs of a Pokémon.
     </description>
 
     <author href="http://charboneau.info" email="charboneau.jonah@gmail.com">
