@@ -1,0 +1,80 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimal-ui">
+	<title>jQuery Mobile: Theme Download</title>
+	<link rel="stylesheet" href="themes/halloweve.min.css" />
+	<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+	<link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+	<link rel="stylesheet" href="styleistic.css" />
+	<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+	<script src="calculation.js"></script>
+	<title>Hidden Power Calculator</title>
+</head>
+<body data-generation-value="2">
+	<div data-role="page" data-theme="a" id="page1" >
+		<div data-role="header" data-position="inline">
+			
+			<fieldset  data-role="controlgroup"  id="change-theme" data-type="horizontal" >
+				<input type="radio" name="change-theme" id="purple-theme" value="a" checked="checked" />
+				<label for="purple-theme">Purple</label>
+				<input type="radio" name="change-theme" id="orange-theme" value="b"  />
+				<label for="orange-theme">Orange</label>
+				<input type="radio" name="change-theme" id="black-theme" value="c"  />
+				<label for="black-theme">Black</label>
+			</fieldset>
+			
+			<h1>Hidden Power Calculator</h1>
+
+		</div>
+		<div data-role="content" data-theme="a">
+		
+			<div data-theme="a" data-form="ui-body-a" >
+				<p>This is a calculator that can be used to calculate the type of Hidden Power given the IVs of a Pokémon.</p>
+			</div>
+		
+			<label >Which generation are you playing?</label>
+			<fieldset  data-role="controlgroup"  id="game-choice" data-type="horizontal" >
+				<label for="gen-2">Gen II</label>
+				<input type="radio" name="game-choice" id="gen-2" value="gen-2" checked />
+				<label for="gen-3">Gen III+</label>
+				<input type="radio" name="game-choice" id="gen-3" value="gen-3"  />
+				<label for="black-theme">Black</label>
+			</fieldset>
+			
+			<div class="numerical gen-2">
+				<label for="ATK_DV">ATTACK DV:</label>
+				<input type="range" name="ATK_DV" id="ATK_DV" value="0" min="0" max="15" data-theme="a" />
+				<label for="DEF_DV">DEFENSE DV:</label>
+				<input type="range" name="DEF_DV" id="DEF_DV" value="0" min="0" max="15" data-theme="a" />
+				<label for="SP_DV">SPECIAL DV:</label>
+				<input type="range" name="SP_DV" id="SP_DV" value="0" min="0" max="15" data-theme="a" />
+				<label for="SPEED_DV">SPEED DV:</label>
+				<input type="range" name="SPEED_DV" id="SPEED_DV" value="0" min="0" max="15" data-theme="a" />
+			</div>
+			<div class="numerical gen-3">
+				<label for="HP_IV">HP IV:</label>
+				<input type="range" name="HP_IV" id="HP_IV" value="0" min="0" max="31" data-theme="a" />
+				<label for="ATK_IV">ATTACK IV:</label>
+				<input type="range" name="ATK_IV" id="ATK_IV" value="0" min="0" max="31" data-theme="a" />
+				<label for="DEF_IV">DEFENSE IV:</label>
+				<input type="range" name="DEF_IV" id="DEF_IV" value="0" min="0" max="31" data-theme="a" />
+				<label for="SPATK_IV">SPECIAL ATTACK IV:</label>
+				<input type="range" name="SPATK_IV" id="SPATK_IV" value="0" min="0" max="31" data-theme="a" />
+				<label for="SPDEF_IV">SPECIAL DEFENSE IV:</label>
+				<input type="range" name="SPDEF_IV" id="SPDEF_IV" value="0" min="0" max="31" data-theme="a" />
+				<label for="SPEED_IV">SPEED IV:</label>
+				<input type="range" name="SPEED_IV" id="SPEED_IV" value="0" min="0" max="31" data-theme="a" />
+			</div>
+			<div id="output">
+			
+				<span id="power-output"></span>
+				<span id="type-output"></span>
+			
+			</div>
+		</div>
+	</div>
+</body>
+</html>

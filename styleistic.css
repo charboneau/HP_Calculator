@@ -1,0 +1,243 @@
+
+	@font-face{
+		
+		font-family:Pokemon;
+		src:url("font/PokemonGB.ttf");
+		
+	}
+
+	body{
+		
+		font-family:sans-serif;
+		
+	}
+	
+	h1{
+		
+
+		
+	}
+	
+	div.iv-judge-section{
+		
+		display:inline-block;
+		margin:.5em;
+		
+	}
+	
+	div.iv-judge-section > label{
+		
+		font-weight:300;
+		text-align:center;
+		
+	}
+	
+	.gen-2{
+		
+		display:none;
+		
+	}
+	
+	[data-generation-value="2"]  .numerical{
+		
+		display:none;
+		
+	}
+	
+	[data-generation-value="2"] .gen-2{
+		
+		display:block;
+		
+	}
+	
+	.gen-7{
+		
+		display:none;
+		
+	}
+	
+	[data-generation-value="7"] .gen-7{
+		
+		display:block;
+		
+	}
+	
+	.iv-judge{
+		
+		display:none;
+		
+	}
+	
+	[data-mode="iv-judge"] .iv-judge{
+		
+		display:block;
+		
+	}
+	
+	[data-mode="iv-judge"] .numerical{
+		
+		display:none;
+		
+	}
+	
+	input.ui-slider-input{
+		
+		border:0;
+		box-shadow:none;
+		font-weight:normal;
+		font-family:Pokemon;
+		
+	}
+	
+	div[data-role="header"] > div.ui-select{
+		
+		display:inline-block;
+		position:absolute;
+		top:-.35em;
+		left:0.2%;
+		
+	}
+	
+	#output{
+		
+		font-family:Pokemon,sans-serif;
+		margin-top:46px;
+		margin-bottom:50px;
+		
+	}
+	
+	#type-output{
+		
+		text-shadow:2px 2px black;
+		border-radius:11px;
+		padding:10px;
+		color:white;
+		
+	}
+	
+	#output:before{
+		
+		content:"Power Type";
+		font-size:.73em;
+		position:relative;
+		top:-31px;
+		margin-right:-121px;
+		
+	}
+	
+	#type-output[data-type="Fighting"]{
+		
+		background-color:#C03028;
+		
+	}
+	
+	#type-output[data-type="Flying"]{
+		
+		background-color:#A890F0;
+		
+	}
+	
+	#type-output[data-type="Poison"]{
+		
+		background-color:#A040A0;
+		
+	}
+	
+	#type-output[data-type="Ground"]{
+		
+		background-color:#E0C068;
+		
+	}
+	
+	#type-output[data-type="Rock"]{
+		
+		background-color:#B8A038;
+		
+	}
+	
+	#type-output[data-type="Bug"]{
+		
+		background-color:#A8B820;
+		
+	}
+	
+	#type-output[data-type="Ghost"]{
+		
+		background-color:#705898;
+		
+	}
+	
+	#type-output[data-type="Steel"]{
+		
+		background-color:#B8B8D0;
+		
+	}
+	
+	#type-output[data-type="Fire"]{
+		
+		background-color:#F08030;
+		
+	}
+	
+	#type-output[data-type="Water"]{
+		
+		background-color:#6890F0;
+		
+	}
+	
+	#type-output[data-type="Grass"]{
+		
+		background-color:#78C850;
+		
+	}
+	
+	#type-output[data-type="Electric"]{
+		
+		background-color:#F8D030;
+		
+	}
+	
+	#type-output[data-type="Psychic"]{
+		
+		background-color:#F85888;
+		
+	}
+	
+	#type-output[data-type="Ice"]{
+		
+		background-color:#98D8D8;
+		
+	}
+	
+	#type-output[data-type="Dragon"]{
+		
+		background-color:#7038F8;
+		
+	}
+	
+	#type-output[data-type="Dragon"]{
+		
+		background-color:#7038F8;
+		
+	}
+	
+	#type-output[data-type="Dark"]{
+		
+		background-color:#705848;
+		
+	}
+	
+	#change-theme{
+		
+		position:fixed;
+		bottom:0.5em;
+		right:0.25em;
+		z-index:10;
+		
+	}
+	
+	.ui-header .ui-title, .ui-footer .ui-title{
+		
+		margin:0 auto;
+		
+	}
