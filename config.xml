@@ -2,17 +2,17 @@
 
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "com.test.test"
+        id        = "info.charboneau.hp_calculator"
         version   = "1.0.0">
 
-    <name>Test</name>
+    <name>Hidden Power Calculator</name>
 
     <description>
-        Test
+        This app allows you to calcuate the type and power of the move, Hidden Power, from the game series, Pokémon.
     </description>
 
-    <author href="http://test.com" email="test@test.com">
-        Test
+    <author href="http://charboneau.info" email="charboneau.jonah@gmail.com">
+        Jonah Charboneau
     </author>
 	
     <preference name="permissions"                value="none"/>
